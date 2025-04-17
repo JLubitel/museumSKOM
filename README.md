@@ -1,0 +1,2 @@
+# museumSKOM
+excursionSKOM
