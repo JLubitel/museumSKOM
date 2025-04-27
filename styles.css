@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #edcccc;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  text-indent: 1.5em; 
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 15px; /* Отступы */
+}
+
+.img-container img {
+  width: 100%;  /* Занимает всю ширину ячейки */
+  height: 200px; /* Фиксированная высота */
+  object-fit: cover;
+}
